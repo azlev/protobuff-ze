@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package ze.dialog.v1;
+
+message Dialog {
+    // client or bot
+    string client = 1;
+
+    string content = 2;
+}
+
